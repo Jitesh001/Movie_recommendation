@@ -2,7 +2,7 @@
 ## SUMMARY :
 The goal of this project is to build a recommendation engine for the users. In this context, there are plenty of different ways to build this engine. It might depend on the user habits, contents or genres.
 
-In order to build that engine, I benefit from the movie data set from the webpage Kaggle. I used tmdb 5000 movies dataset. there are two datasets movies and credits. I provided dataset in repository.
+In order to build that engine, I benefit from the movie data set from the webpage Kaggle. I used tmdb 5000 movies dataset. there are two datasets movies and credits. I provided dataset in repository. dataset Link https://www.kaggle.com/tmdb/tmdb-movie-metadata
 
 I builded simple content based recommendation system using Sklearn packages TfidfVectorizer and sigmoid_kernel :
 
