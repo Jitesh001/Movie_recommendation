@@ -18,3 +18,6 @@ SVM algorithms use a set of mathematical functions that are defined as the kerne
 This recommendation is built using the movie descriptions. From each description, I used TF-IDF to check the words creating bins. At the end, I was able to recommend movies depending on the descriptions.
 
 When we think about this approach, it is a more detailed recommendation on just suggesting from a variety of genres. When we assume that the descriptions are summaries of each movie without giving away the key concepts, we can actually get a better sense of the similarities utilizing this information.
+
+## App Link :
+https://little-movie-recommender.herokuapp.com/
