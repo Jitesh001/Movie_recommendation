@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Recommendor System</title>
+    <link rel="shortcut icon" href="/static/favicon.jpg">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <br><br><br>
+    <div class="container">
+    <div class="row">
+    <div class="col-sm-8">
+    <nav class="navbar navbar-light bg-light">
+      <h3><a style="color:rgb(0, 102, 255)" class="nav-link" href="{{url_for('home')}}">Home</a></h3>
+    </nav>
+
+      <div class="jumbotron">
+        {% block content %}
+        {% endblock %}
+      </div>
+    </div>
+   
+   <div class="container col-sm-4">
+          <!-- <div class="card text-white" style= "height: 21rem; width: 21rem">
+          <img class="card-img" src="/static/Jitesh.jpg"  alt="Card image" style= "height: 21rem;">
+          <div class="card-img-overlay">
+            <h5 class="card-title">Jitesh Shewale</h5>
+            <p class="card-text" >I'm a Data Science enthusiast who loves to play with machine learning.</p>
+            <p >Click the link below to know about me!</p>
+            <br><br><br><br>
+            <a href="https://www.linkedin.com/in/jitesh-shewale-41ba68195/" class="btn btn-light" target="_blank" style='float: left;'>Linkedin</a>
+            <a href="https://github.com/Jitesh001" class="btn btn-light" target="_blank" style='float: right;'>Git Hub</a>
+          </div> -->
+          <div class="card bg-light mb-3" style="max-width: 18rem;">
+             <div class="card-header">My info</div>
+             <div class="card-body">
+            <h5 class="card-title">Jitesh Shewale</h5>
+            <p class="card-text" >I'm a Data Science enthusiast who loves to play with machine learning.</p>
+            <p >Click the link below to know about me!</p>
+            <br><br><br><br>
+            <a href="https://www.linkedin.com/in/jitesh-shewale-41ba68195/" class="btn btn-info" target="_blank" style='float: left;'>Linkedin</a>
+            <a href="https://github.com/Jitesh001" class="btn btn-info" target="_blank" style='float: right;'>Git Hub</a>
+        </div>
+</div>
+        </div>
+
+    </div>
+    </div>
+    </div>
+  </body>
+</html>
